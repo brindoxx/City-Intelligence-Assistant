@@ -113,7 +113,7 @@ def get_news(city: str) -> str:
 # ============================================================
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash-lite",
     google_api_key=os.getenv("GOOGLE_API_KEY")
 )
 
