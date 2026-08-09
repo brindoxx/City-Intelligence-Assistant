@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+*.swp
+Thumbs.db
